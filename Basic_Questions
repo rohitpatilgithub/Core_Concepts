@@ -11,3 +11,5 @@ Q. Where is instance variable , reference variable and local variable stored in 
 Q. What is default value of local variable ? If yes, what is the value ?
 
 Q. 'int a = 10' what does 'int' , 'a' , '10' denote ?
+
+Q. Can we use access specifier on local variable ?
