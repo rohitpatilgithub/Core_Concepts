@@ -1,7 +1,7 @@
 public class Local_Variables {
     void multiply() {   // this is method
 
-        // access modifies cannot be used in local variables eg : public int local Variable
+        // access modifiers cannot be used in local variables eg : public int local Variable
         int a = 20 , d; // 'a' & 'd' are local variables which cannot be used outside the method
         d = a;
         System.out.println(d);
