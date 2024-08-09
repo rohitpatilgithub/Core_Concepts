@@ -1,15 +1,34 @@
 Q. Where is primitive variable & non primitive stored in the memory ?
+--> Primitive variable is stored in 'Stack'.
+    Non-primitive object is stored in 'Heap' but reference variable is stored in 'Stack'.
 
 Q. What is wrapper class ?
+--> Generally Primitive variable have own wrapper class corresponding to the the data type
+    Eg . int == Integer wrapper class ,
+         float == Float wrapper class ,
+         char == Character wrapper class .
 
 Q. What is auto-boxing and unboxing ?
+--> Auto-boxing is used to automatically convert primitive data type to it's corresponding wrapper class object ( int to Integer )
+    Un-boxing is used to automatically ---- corresponding wrapper class object to primitive data type ( Integer to int )
 
 Q. Is there any fixed size of non primitives ?
+--> No, but it does get memory post calculation , JVM sometime uses primitive data types to calculate memory
+    Eg : String name = "Rohit"; // char = 2 byte , total 5 char ( 5*2=10 byte of memory being used )
 
 Q. Where is instance variable , reference variable and local variable stored in the memory ?
+--> Instance variable,Local variable,Reference variable = Stack memory
+    Object (Not reference variable) = Heap memory
 
 Q. What is default value of local variable ? If yes, what is the value ?
+--> No, there's no any default value for local variable
 
 Q. 'int a = 10' what does 'int' , 'a' , '10' denote ?
+--> 'int' = Data type
+     'a'  = Variable
+     '10' = Literal
 
 Q. Can we use access specifier on local variable ?
+--> No, we cannot use access modifier / specifier on local variable
+
+Q. Where is literal stored in memory of Java ?
