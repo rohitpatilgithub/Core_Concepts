@@ -11,5 +11,10 @@ public class Identifiers {
         // 2.  Cannot use Integer at first place / index ( 1abc ) but we can use ( a1bc )
         // 3.  Special symbol like '$' and '_' can be used after first index
         // 4.  Cannot use reserved keyword
+
+        // Naming conventions
+        // 1.  Variable = num / num_1 / num_demo
+        // 2.  Method = sumIs() / additionIs() / giveNum()
+        // 3.  Class / Interface = Math{} / Demo{} / IdentifyMe{}
     }
 }
