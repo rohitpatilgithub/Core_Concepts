@@ -6,6 +6,9 @@ public class Main_Method {      // class Name
         // 4. Method name ( main )
         // 5. Parameter's for the method ( String[] args )
         System.out.println("Hello world");
+        //System ( class from package java.lang )
+        //.out ( Static variable of Print Stream from above System class )
+        //.println() ( It is method of Print Stream class )
         // 1. Order of access modifier can be changed : static public void ...
         // 2. We can declare String[] args in any form : String args[] / String[] args / String []args
         // 3. You can changed identifier name from 'args' to anything in 'String[] args'
