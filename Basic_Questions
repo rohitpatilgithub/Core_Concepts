@@ -1,40 +1,46 @@
-Q. Where is primitive variable & non primitive stored in the memory ?
+Chp1
+
+Q1. Where is primitive variable & non primitive stored in the memory ?
 --> Primitive variable is stored in 'Stack'.
     Non-primitive object is stored in 'Heap' but reference variable is stored in 'Stack'.
 
-Q. What is wrapper class ?
+Q2. What is wrapper class ?
 --> Generally Primitive variable have own wrapper class corresponding to the the data type
     Eg . int == Integer wrapper class ,
          float == Float wrapper class ,
          char == Character wrapper class .
 
-Q. What is auto-boxing and unboxing ?
+Q3. What is auto-boxing and unboxing ?
 --> Auto-boxing is used to automatically convert primitive data type to it's corresponding wrapper class object ( int to Integer )
     Un-boxing is used to automatically ---- corresponding wrapper class object to primitive data type ( Integer to int )
 
-Q. Is there any fixed size of non primitives ?
+Q4. Is there any fixed size of non primitives ?
 --> No, but it does get memory post calculation , JVM sometime uses primitive data types to calculate memory
     Eg : String name = "Rohit"; // char = 2 byte , total 5 char ( 5*2=10 byte of memory being used )
 
-Q. Where is instance variable , reference variable and local variable stored in the memory ?
+Chp 2
+
+Q1. Where is instance variable , reference variable and local variable stored in the memory ?
 --> Instance variable,Local variable,Reference variable = Stack memory
     Object (Not reference variable) = Heap memory
 
-Q. What is default value of local variable ? If yes, what is the value ?
+Q2. What is default value of local variable ? If yes, what is the value ?
 --> No, there's no any default value for local variable
 
-Q. 'int a = 10' what does 'int' , 'a' , '10' denote ?
+Q3. 'int a = 10' what does 'int' , 'a' , '10' denote ?
 --> 'int' = Data type
      'a'  = Variable
      '10' = Literal
 
-Q. Can we use access specifier on local variable ?
+Q4. Can we use access specifier on local variable ?
 --> No, we cannot use access modifier / specifier on local variable
 
-Q. Where is literal stored in memory of Java ?
+Q5. Where is literal stored in memory of Java ?
 --> Static memory
 
-Q. Explain 'main()' method ?
+Chp3
+
+Q1. Explain 'main()' method ?
 --> public class A {      // class Name
         public static void main(String[] args) {
             // 1. Access modifier ( public )
@@ -46,8 +52,27 @@ Q. Explain 'main()' method ?
         }
     }
 
-Q. Explain what changes we can do in 'main()' method ?
+Q2. Explain what changes we can do in 'main()' method ?
 --> 1. Order of access modifier can be changed : static public void ...
     2. We can declare String[] args in any form : String args[] / String[] args / String []args
     3. You can changed identifier name from 'args' to anything in 'String[] args'
     4. We can use var args instead of 'String[] args' to 'String... args'
+
+Q3. Explain System.out.println()
+--> System ( class from package java.lang )
+    .out ( Static variable of Print Stream from above System class )
+    .println() ( It is method of Print Stream class )
+
+Q4. Will it Compile ? Explain main( String ... args )
+--> Yes,
+
+Q5. Will it Compile ? Abc.java is file name but we have public class name A { } ? If yes, how will it run ?
+--> Yes it will compiler by creating .class file of A eg: A.class which we can compile it in JVM
+
+Q6. What if we have two class, and name of file is Abc.java then how will it compile ?
+        1. class A including main()
+        2. class B
+--> It will create two '.class' file :
+    1. A.class
+    2. B.class
+    but it will only compile A.class because it contains main()
