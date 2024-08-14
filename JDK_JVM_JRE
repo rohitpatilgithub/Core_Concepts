@@ -1,0 +1,6 @@
+JDK means Java Development Kit = JRE + Development tools
+- includes development tools like
+                          1. javac : Java Compiler translates Java source code to bytecode
+                          2. java : Java launcher that executes compiled Java Application ( bytecode )
+                          3. jar : creates and manages Java archives
+                          4. javadoc : Generates HTML document from Java source code comments
