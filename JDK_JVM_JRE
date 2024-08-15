@@ -1,6 +1,29 @@
-JDK means Java Development Kit = JRE + Development tools
+-> JDK stands for Java Development Kit = JRE + Development tools
+
 - includes development tools like
                           1. javac : Java Compiler translates Java source code to bytecode
                           2. java : Java launcher that executes compiled Java Application ( bytecode )
                           3. jar : creates and manages Java archives
                           4. javadoc : Generates HTML document from Java source code comments
+
+-> JRE stands for Java Runtime Environment = JVM + package classes + Runtime libraries
+
+- includes
+           1. Java package classes
+           2. Runtime libraries
+           3. JVM ( Java Virtual Machine )
+
+-> JVM stands for Java Virtual Machine
+
+- includes
+           1. Class loader
+           2. Memory Area
+           3. Execution engine ( includes Interpreter and Just - in Time compiler JIT )
+
+FAQs
+1. Role of JDK
+-> a. Compiles and Executes java class file
+   b. Pre defined classes and libraries are present in JRE ( inside JDK ) and resources are used by JVM while execution
+   c. JVM on other hand verifies the bytecode and helps it to execute in machine
+
+2. JVM is platform dependent
