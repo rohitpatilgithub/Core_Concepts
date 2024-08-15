@@ -19,5 +19,8 @@ JVM stands for Java Virtual Machine = Class loader + Memory Area + Execution Eng
                   - Performs Initialization process
                   1. Replacing of default values to original values
                   2. Executes static blocks first from top to bottom
-4. Memory area - .class file is loaded in Method area ( inside Memory area ) and it stores class level information
-                 in itself like info about variable , method , constructor , etc..
+
+4. Memory area -
+                 1. Method Area : .class file is loaded in Method area ( inside Memory area ) and it stores class level information
+                                  in itself like info about variable , method , constructor , etc..
+                 2. Heap Area : It stores objects created by class
