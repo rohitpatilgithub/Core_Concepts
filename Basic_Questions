@@ -19,28 +19,25 @@ Q4. Is there any fixed size of non primitives ?
 --> No, but it does get memory post calculation , JVM sometime uses primitive data types to calculate memory
     Eg : String name = "Rohit"; // char = 2 byte , total 5 char ( 5*2=10 byte of memory being used )
 
-Chp 2
----------------------------------------------------------------------------------------------
-
-Q1. Where is instance variable , reference variable and local variable stored in the memory ?
+Q5. Where is instance variable , reference variable and local variable stored in the memory ?
 --> Instance variable,Local variable,Reference variable = Stack memory
     Object (Not reference variable) = Heap memory
 
-Q2. What is default value of local variable ? If yes, what is the value ?
+Q6. What is default value of local variable ? If yes, what is the value ?
 --> No, there's no any default value for local variable
 
-Q3. 'int a = 10' what does 'int' , 'a' , '10' denote ?
+Q7. 'int a = 10' what does 'int' , 'a' , '10' denote ?
 --> 'int' = Data type
      'a'  = Variable
      '10' = Literal
 
-Q4. Can we use access specifier on local variable ?
+Q8. Can we use access specifier on local variable ?
 --> No, we cannot use access modifier / specifier on local variable
 
-Q5. Where is literal stored in memory of Java ?
+Q9. Where is literal stored in memory of Java ?
 --> Static memory
 
-Chp3
+Chp2
 ---------------------------------------------------------------------------------------------
 
 Q1. Explain 'main()' method ?
