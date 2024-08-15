@@ -1,0 +1,23 @@
+JVM stands for Java Virtual Machine = Class loader + Memory Area + Execution Engine ( Interpreter + Just-in Time compiler JIT )
+
+1. We compile Java source code (.java) to bytecode (.class) file
+
+2. Firstly bytecode (.class) file gets allocated to memory area through class loader
+
+3. Class loader
+                - Performs loading process (loading in memory) to .class which can be done by
+                  1. Bootstrap class loader
+                  2. Extension class loader
+                  3. Application class loader
+
+                - Performs linking process
+                  1. Verification : Verifies bytecode (.class) whether it is valid for execution or not
+                  2. Preparation : Allocates class level data ( static variable , instance variable , etc.. ) to the memory with default value.
+                                   Ex : static int a = 10; // then default value of 'a' is set '0' in memory
+                  3. Resolution : Replacing of symbolic name to original name references.
+
+                  - Performs Initialization process
+                  1. Replacing of default values to original values
+                  2. Executes static blocks first from top to bottom
+4. Memory area - .class file is loaded in Method area ( inside Memory area ) and it stores class level information
+                 in itself like info about variable , method , constructor , etc..
