@@ -20,7 +20,23 @@ JVM stands for Java Virtual Machine = Class loader + Memory Area + Execution Eng
                   1. Replacing of default values to original values
                   2. Executes static blocks first from top to bottom
 
-4. Memory area -
+4. Memory area
                  1. Method Area : .class file is loaded in Method area ( inside Memory area ) and it stores class level information
                                   in itself like info about variable , method , constructor , etc..
-                 2. Heap Area : It stores objects created by class
+                 2. Heap Area : It stores objects created by class , Arrays and Instance variables are also stored here.
+
+5. Execution Engine = ( Interpreter + JIT )
+                 Main focus is to execute program
+                 1. Interpreter : Line by line translation and execution of bytecode is done in here
+                 2. Just-In Time compiler : Increases execution of program as fast as possible
+                                  Methods / blocks which are used several times it gets converted from bytecode into native machine code because whenever there's repetitive method call ,
+                                  instead of interpreter to translate bytecode and execute same process line by line our JIT will handle bytecode directly and execute
+
+                 Methods which are used repeatedly are called as 'Hotspots'
+
+6. JIT ( Just in Time compiler )
+                 1. Intermediate code generator
+                 2. Profiler : It has access of 'Hotspots' to manage and execute
+                 2. Code optimizer
+                 3. Target code generator
+                 4. Native code / Machine code
