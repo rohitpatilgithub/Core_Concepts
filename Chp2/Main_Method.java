@@ -1,3 +1,5 @@
+package Chp2;
+
 public class Main_Method {      // class Name
     public static void main(String... args) { // how ?
         // 1. Access modifier ( public )

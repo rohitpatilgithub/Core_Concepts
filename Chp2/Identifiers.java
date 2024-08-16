@@ -1,3 +1,5 @@
+package Chp2;
+
 class Maths{        // here 'Maths' is identifier ( class name )
     int a = 10;     // here 'a' is identifier ( variable )
     void sum() {    // here 'sum' is identifier ( method )
