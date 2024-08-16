@@ -1,3 +1,5 @@
+package Chp1;
+
 public class Data_Types {
     public static void main(String[] args) {
 

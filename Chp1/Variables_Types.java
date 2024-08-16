@@ -1,3 +1,5 @@
+package Chp1;
+
 public class Variables_Types {
 
     int instanceVariable; // this is instance variable for class Variable_Types

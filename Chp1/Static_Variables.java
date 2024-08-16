@@ -1,3 +1,5 @@
+package Chp1;
+
 public class Static_Variables {
 
     static int num = 10;    // static instance variable stored in Method area ( Meta space ) instead of heap

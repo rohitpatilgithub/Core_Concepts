@@ -1,3 +1,5 @@
+package Chp1;
+
 public class Non_Primitives {
     public static void main(String[] args) {
         // Q : Is there any fixed size of non primitives in data_types ?

@@ -1,3 +1,5 @@
+package Chp1;
+
 public class Instance_Variables {
 
     int myVariable = 10; // this is instance variable stored in heap memory

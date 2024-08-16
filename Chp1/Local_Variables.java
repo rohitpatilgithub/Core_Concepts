@@ -1,3 +1,5 @@
+package Chp1;
+
 public class Local_Variables {
     void multiply() {   // this is method
 
