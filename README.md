@@ -47,6 +47,7 @@
 ## ✒️Authors
 
 - 📝 [@rohitpatilgithub](https://www.github.com/rohitpatilgithub)
+- 📝 [@sumitmahankale](https://www.github.com/sumitmahankale)
 
 
 ## 🛠 Skills
