@@ -27,6 +27,3 @@
 
 ## 🛠 Skills
 Currently Java
-
-![C](https://github.com/user-attachments/assets/22712cdc-0875-4f56-8cbe-0037ef63a68c)
-
