@@ -1,6 +1,6 @@
 # Hi, Myself Flux (aka Rohit) ! 🙏
 
-# 🚀 About Me
+## 🚀 About Me
 
 🌕 *Note* : I know this repository doesn't contain complete core Java concepts so please do not whine about it 😊
 
@@ -11,7 +11,7 @@
 🌗 So I sorted my repository in such a way that it would be easy for any student to learn without any trouble
 
 
-# 📑 Lessons
+## 📑 Lessons
 
 🌑 ***Chapter 1*** 👇
 
@@ -35,7 +35,7 @@
             JVM architecture
 
 
-# 🎯 Core Concepts
+## 🎯 Core Concepts
 
 🌘 This repository contains Core Java concepts
 
@@ -44,10 +44,10 @@
 - You can Practice and Understand on daily basis
 - Below I will update the syllabus by contributing to this repository more in future
 
-# ✒️Authors
+## ✒️Authors
 
 - 📝 [@rohitpatilgithub](https://www.github.com/rohitpatilgithub)
 
 
-# 🛠 Skills
+## 🛠 Skills
 Currently Java
