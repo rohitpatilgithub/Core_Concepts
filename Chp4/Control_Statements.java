@@ -1,30 +1,25 @@
 package Chp4;
 
-public class Control_Statements_1 {
+public class Control_Statements {
     public static void main(String[] args) {
 //         We control the flow of our program by using control statement
-
 //         3 types of control statement's :
 //                 1. Selection or Conditional statement : if , else , else-if , nested-if , switch
 //                 2. Iteration or Looping statement : for , while , do-while
 //                 3. Jump statements : break , continue , return
+//         1. Selection / Conditional statement : From multiple block of code only one is being selected
 
-//-----------------------------------------------------------------------------------------------------------
+//         Example of else-if :
 
-//         Selection / Conditional statement : From multiple block of code only one is being selected
-
-//        Example of else-if :
-
-//        if ( condition true ) then execute the {
+//         if ( condition true ) then execute the {
 //              block
-//       }
-//       else if ( condition true ) then execute {
-//              block
-//       }
+//         }
+//        else if ( condition true ) then execute {
+//            block
+//        }
 //        else {
-//             execute this block
-//      }
-
+//            execute this block
+//        }
         int a = 10;
         if ( a == 10 ) {
             System.out.println("Number is 10");
@@ -35,8 +30,6 @@ public class Control_Statements_1 {
         else {
             System.out.println("Big");
         }
-
-//-----------------------------------------------------------------------------------------------------------
 
 //      Example of nested if :
 
@@ -50,8 +43,6 @@ public class Control_Statements_1 {
                 System.out.println("Number is 20");
             }
         }
-
-// -----------------------------------------------------------------------------------------------------------
 
         // Example of switch statements :
 
