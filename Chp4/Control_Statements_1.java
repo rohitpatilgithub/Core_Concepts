@@ -7,7 +7,9 @@ public class Control_Statements_1 {
 //                 1. Selection or Conditional statement : if , else , else-if , nested-if , switch
 //                 2. Iteration or Looping statement : for , while , do-while
 //                 3. Jump statements : break , continue , return
-//         1. Selection / Conditional statement : From multiple block of code only one is being selected
+//         Selection / Conditional statement : From multiple block of code only one is being selected
+
+//----------------------------------------------------------------------------------------------------------------
 
 //         Example of else-if :
 
@@ -31,6 +33,8 @@ public class Control_Statements_1 {
             System.out.println("Big");
         }
 
+//----------------------------------------------------------------------------------------------------------------
+
 //      Example of nested if :
 
 //      if( condition true ) then execute {
@@ -43,6 +47,8 @@ public class Control_Statements_1 {
                 System.out.println("Number is 20");
             }
         }
+
+//----------------------------------------------------------------------------------------------------------------
 
         // Example of switch statements :
 
