@@ -34,10 +34,15 @@
             JDK ( Java Development kit )
             JVM architecture
 
-🌓 ***Chapter 4*** 👇
+🌔 ***Chapter 4*** 👇
 
             Conditional Statements
             Problems on Conditional Statements
+
+🌕 ***Chapter 5*** 👇
+
+            User input using Scanner class
+            Problems on Conditional Statements and Scanner class
 
 ## 🎯 Core Concepts
 
