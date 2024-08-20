@@ -9,9 +9,9 @@ public class SwitchCaseCalculator {
         // Take input of two numbers and symbol to perform calculation
 
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter your number 1 : ");
+        System.out.print("Enter number 1 : ");
         int a = sc.nextInt();
-        System.out.print("Enter your number 2 : ");
+        System.out.print("Enter number 2 : ");
         int b = sc.nextInt();
         int result = 0;
         System.out.print("Enter your symbol for operation : ");
