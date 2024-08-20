@@ -81,3 +81,21 @@ Chp3
 ---------------------------------------------------------------------------------------------
 
 Just read everything
+
+Chp4
+---------------------------------------------------------------------------------------------
+
+Q1. What does Control statements do ?
+--> It controls the flow of a program like only executing the part we want as per our requirement
+
+Chp5
+---------------------------------------------------------------------------------------------
+
+Q1. What package do we import to get User Input ?
+--> java.util
+
+Q2. What class do we use from 'java.util' package ?
+--> Scanner class
+
+Q3. Name some methods from Scanner class.
+--> next() , nextInt() , nextFloat() , etc..
