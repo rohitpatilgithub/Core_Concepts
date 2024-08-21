@@ -99,3 +99,6 @@ Q2. What class do we use from 'java.util' package ?
 
 Q3. Name some methods from Scanner class.
 --> next() , nextInt() , nextFloat() , etc..
+
+Q4. What is recursive method ?
+--> Recursive method is a method which calls itself to solve a problem ( it can be direct or indirect )
