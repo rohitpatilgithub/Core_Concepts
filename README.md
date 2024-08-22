@@ -44,6 +44,12 @@
             User input using Scanner class
             Problems on Conditional Statements and Scanner class
 
+🌖 ***Chapter 6*** 👇
+
+            Arrays in Java
+            Array with 1D , 2D , 3D
+            Anonymous Arrays
+
 ## 🎯 Core Concepts
 
 🌘 This repository contains Core Java concepts
