@@ -46,7 +46,7 @@
 
 🌖 ***Chapter 6*** 👇
 
-            Arrays in Java
+            Arrays in Java : Create , Declare , Initialize , Retrieve
             Array with 1D , 2D , 3D
             Anonymous Arrays
 
