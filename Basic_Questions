@@ -102,3 +102,27 @@ Q3. Name some methods from Scanner class.
 
 Q4. What is recursive method ?
 --> Recursive method is a method which calls itself to solve a problem ( it can be direct or indirect )
+
+Chp6
+---------------------------------------------------------------------------------------------
+
+Q1. What is an Array ? Please mention Superclass of Arrays .
+--> Array is collection of Same data types / Homogenous data types
+    Array is a Object with Superclass - Object class
+
+Q2. What will happen if we remove one element from Array ?
+--> Ihe elements in array are stored consecutively in memory locations ,
+    thus if we delete one element we need to traverse through out the array which will reduce the performance
+
+Q3. If we try to convert primitive type to wrapper class object conversion then will it happer ?
+--> No it won't because Java doesn't allow this conversion implicitly
+
+Q4. Read default values
+
+Q5. Will this compile : int [] mix = new int[]{10,20,30};
+--> Yes, here we are declaring , creating and initializing the Array
+
+Q6. Explain for each loop & How can you implement it in Retrieving elements from Array ?
+--> For each loop is enhanced for loop / for each where it iterates and loop
+    continues until it finishes the collection / array
+    We can use in array to retrieve all array elements
