@@ -114,7 +114,7 @@ Q2. What will happen if we remove one element from Array ?
 --> Ihe elements in array are stored consecutively in memory locations ,
     thus if we delete one element we need to traverse through out the array which will reduce the performance
 
-Q3. If we try to convert primitive type to wrapper class object conversion then will it happer ?
+Q3. If we try to convert primitive type to wrapper class object conversion then will it happen ?
 --> No it won't because Java doesn't allow this conversion implicitly
 
 Q4. Read default values
@@ -126,3 +126,19 @@ Q6. Explain for each loop & How can you implement it in Retrieving elements from
 --> For each loop is enhanced for loop / for each where it iterates and loop
     continues until it finishes the collection / array
     We can use in array to retrieve all array elements
+
+Q7. Explain difference in : 1. int[] a , b; & 2. int a[] , b;
+--> 1. a and b both are int Arrays (1-D)
+    2. a is the only int Array (1-D) and b is int variable
+
+Q8. Explain difference in 1. int[][] a , b[]; & 2. int[][] a , []b;
+--> 1. a is int Array (2-D) and b is int Array (3-D)
+    2. a is int Array (2-D) but as soon as it tries to declare b int array it throws 'Compiler time error' cuz
+    Providing dimension to first var '[]a' is correct but on second variable it should be after the variable like -> 'b[]'
+
+Q9. What is difference in 'Matrix Array' & 'Jagged Array' ?
+--> 1. Matrix Array has same no of columns and rows in it ; rows are 2 and columns are 3
+    2. Jagged Array is opposite of Matrix Array ; rows are 2 and column1 has 3 columns , column2 has 2 columns
+
+Q10. What will happen if we try to print a[0] from int[][] a = new int[2][]; ?
+--> It will print 'null' cuz
