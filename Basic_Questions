@@ -151,3 +151,11 @@ Q11. How do you declare , create , initialize in 1D , 2D and 3D Arrays in single
 Q12. What does Anonymous Array do ?
 --> Anonymous Array is a type of array which has no name and its purpose is to create and use instantly
     It is directly created and initialized in single line and use for once
+
+Chp7
+---------------------------------------------------------------------------------------------
+
+Q1. What is bubble sort & How many rounds does it take ?
+--> 1. Bubble sort is comparison based Algorithm which compares two adjacent values and swaps them as they needed
+       which will end up sorting values in ascending or descending
+    2. It takes total numbers in the list - 1 ( rounds ) to complete the sorting of elements
