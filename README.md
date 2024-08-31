@@ -53,8 +53,8 @@
 🌗 ***Chapter 7*** 👇
 
             Basic Algorithm
-            Sorting
-            Searching
+            Sorting : Bubble Sort , Insertion Sort , Merge Sort , Quick Sort , Heap Sort , String Sort
+            Searching : Linear Search , Binary Search
 
 ## 🎯 Core Concepts
 
@@ -70,6 +70,19 @@
 - 📝 [@rohitpatilgithub](https://www.github.com/rohitpatilgithub)
 - 📝 [@sumitmahankale](https://www.github.com/sumitmahankale)
 
+## Resources 📑
+
+Link for playlist to learn J2SE / Core Java 
+
+Language  : Hindi 
+
+https://youtube.com/playlist?list=PLlhM4lkb2sEhfuXL-2BDrJ67WkUdQ2v9b&si=rYQ7d4wy39fIlCjb
+
+Book for reference :
+
+"Head First Java : Latest Edition" 
+
+Note : You must know a Language like C / C++ to start leaarning with this Book
 
 ## 🛠 Skills
 Currently Java
