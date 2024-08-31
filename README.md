@@ -50,6 +50,12 @@
             Array with 1D , 2D , 3D
             Anonymous Arrays
 
+🌗 ***Chapter 7*** 👇
+
+            Basic Algorithm
+            Sorting
+            Searching
+
 ## 🎯 Core Concepts
 
 🌘 This repository contains Core Java concepts
