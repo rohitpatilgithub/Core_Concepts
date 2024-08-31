@@ -155,7 +155,18 @@ Q12. What does Anonymous Array do ?
 Chp7
 ---------------------------------------------------------------------------------------------
 
-Q1. What is bubble sort & How many rounds does it take ?
+Q1. What is Bubble sort & How many rounds does it take ?
 --> 1. Bubble sort is comparison based Algorithm which compares two adjacent values and swaps them as they needed
        which will end up sorting values in ascending or descending
     2. It takes total numbers in the list - 1 ( rounds ) to complete the sorting of elements
+
+Q2. What is Selection sort ?
+--> Selection sort is combination of both searching and sorting
+    It searches for minimum element in the array ( for ascending ) from unsorted and placing it in beginning
+    In every iteration we pick a element from unsorted sub Array is picked and moved out to sorted array
+
+Q3. What is Insertion sort ?
+--> Element at it's initial position and further elements are checked
+    If position of next element is also in order then it skips it
+    Later when it finds another element is not in order , it replaces it and swaps
+    This process is lengthy thus we can only implement it on small array elements
