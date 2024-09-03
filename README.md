@@ -52,6 +52,7 @@
 
 🌗 ***Chapter 7*** 👇
 
+            Note : For now this will be on hold and later will update it as I learn
             Basic Algorithm
             Sorting : Bubble Sort , Insertion Sort , Merge Sort , Quick Sort , Heap Sort , String Sort
             Searching : Linear Search , Binary Search
