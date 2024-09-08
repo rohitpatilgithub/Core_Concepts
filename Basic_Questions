@@ -170,3 +170,28 @@ Q3. What is Insertion sort ?
     If position of next element is also in order then it skips it
     Later when it finds another element is not in order , it replaces it and swaps
     This process is lengthy thus we can only implement it on small array elements
+
+Chp8
+---------------------------------------------------------------------------------------------
+
+Q1. How much space does class occupy in memory ?
+--> It doesn't occupy any space in memory
+
+Q2. Ways to initialize an object in memory
+--> 1. Reference var
+    2. Method
+    3. Constructor
+
+Q3. Can constructor create objects ?
+--> No
+
+Q4. Does constructor return values & if not whats the reason ?
+--> They don't return values cuz
+    1. They are meant to be initialize the object
+    2. Compiler can't decide return type for default by itself ( not even void )
+
+Q5. Is it valid to have access modifiers for constructors ?
+--> Yes it is
+
+Q6. Which one creates constructor : JVM / Compiler ?
+--> Compiler
