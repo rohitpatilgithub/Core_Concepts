@@ -1,4 +1,4 @@
-package Chp8;
+package Chp8.BasicOOP;
 
 public class Animal {
     String name;
