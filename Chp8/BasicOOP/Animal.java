@@ -21,7 +21,7 @@ public class Animal {
         dog.eat();                          // calling methods from Animal class using dot operator
         dog.initObj("Luffy" , 5);     // initializing instance var of Object Animal
         dog.display();
-        Bird sparrow = new Bird();
+        Bird sparrow = new Bird();          // Separate object of separate class
         sparrow.fly();
     }
 }
