@@ -195,3 +195,7 @@ Q5. Is it valid to have access modifiers for constructors ?
 
 Q6. Which one creates constructor : JVM / Compiler ?
 --> Compiler
+
+Q7. What are types or relationships between classes ? What is HAS-A (Association) relationship and IS-A (Inheritance) relationship ?
+--> Read Inheritance
+
