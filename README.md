@@ -57,6 +57,14 @@
             Sorting : Bubble Sort , Insertion Sort , Merge Sort , Quick Sort , Heap Sort , String Sort
             Searching : Linear Search , Binary Search
 
+🌘 ***Chapter 8*** 👇
+
+            Basic of OOP
+            Constructor
+            Inheritance
+            Polymorphism
+            Cases of Method Overloading ( Polymorphism )
+            
 ## 🎯 Core Concepts
 
 🌘 This repository contains Core Java concepts
