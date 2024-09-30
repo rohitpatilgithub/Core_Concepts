@@ -1,4 +1,4 @@
-# Hi, Myself Flux (aka Rohit) ! 🙏
+# Hi, Myself Flux (aka Rohit) !
 
 ## 🚀 About Me
 
