@@ -1,0 +1,25 @@
+Polymorphism : Refers to the ability of objects of different types
+               to be treated as if they were of the same type
+
+               Real life Example : Water ( solid , liquid , gas )
+
+     Types of Polymorphism :
+        1. Compiler time polymorphism / static polymorphism
+          ( we can achieve by method overloading)
+        2. Run time polymorphism / dynamic polymorphism
+          ( we can achieve by method overriding )
+
+     For method overloading / Compiler time polymorphism we need 3 things
+     1. Methods should be in same class
+     2. Same method name 2 or more
+     3. Different argument : a. type of arg
+                             b. no of args
+                             c. sequence of args
+
+     For method overriding we need 3 things
+     1. Methods should be in different class
+     2. Same method name 2 or more
+     3. Same argument :      a. type of arg
+                             b. no of args
+                             c. sequence of args
+     4. Inheritance ( IS-A relationship )
