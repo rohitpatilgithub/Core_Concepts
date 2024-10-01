@@ -1,4 +1,4 @@
-package Chp8.CasesMO;
+package Chp8.CasesMOverloading;
 
 public class Case3 {
     // Case 3 for Method Overloading in Polymorphism
