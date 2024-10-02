@@ -19,6 +19,21 @@ OOP is a Programming paradigm ( a way / method to solve a problem ) / methodolog
 
 -------------------------------------------------------------------------------------------------------------------
 
+In OOP there are two modules :
+
+1. Focused on code reusability : 1. Inheritance ( IS-A relationship )
+                                 2. Association ( HAS-A relationship )
+                                 3. Polymorphism
+                                 - method overloading
+                                 - method overriding
+
+2. Focused on security :  1. Abstraction
+                          2. Data Hiding
+                          3. Encapsulation
+                          4. Tightly coupled classes
+
+-------------------------------------------------------------------------------------------------------------------
+
 Class doesn't occupy memory & it is not a real world entity , it is just a blueprint
 Class is collection of objects
 ClassName -> correct way to declare
