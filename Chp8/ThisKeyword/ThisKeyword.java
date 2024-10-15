@@ -1,4 +1,4 @@
-package ExtraOrdinaryThings;
+package Chp8.ThisKeyword;
 
 // Object has its own state and behaviour
 // Reference var refers the object
