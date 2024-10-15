@@ -5,7 +5,7 @@ package ExtraOrdinaryThings;
 
 interface Vehicle {
     String name = "";
-    default void showMe() {
+    default void show() {
         System.out.println("I am calling default method");
     }
     static void display() {
@@ -14,7 +14,7 @@ interface Vehicle {
 }
 
 class Dog implements Vehicle {
-    public void showMe() {
+    public void show() {
         System.out.println("Display from Dog");
     }
     public void display(){
@@ -25,7 +25,7 @@ class Dog implements Vehicle {
 public class MultipleInheritance {
     public static void main(String[] args) {
         Dog one = new Dog();
-        one.showMe();
+        one.show();
         one.display();
     }
 }
