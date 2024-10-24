@@ -199,3 +199,6 @@ Q6. Which one creates constructor : JVM / Compiler ?
 Q7. What are types or relationships between classes ? What is HAS-A (Association) relationship and IS-A (Inheritance) relationship ?
 --> Read Inheritance
 
+Q8. What is difference between super and super() ?
+--> // super() -> constructor ( invoke constructor of PARENT )
+    // super -> keyword refer instance and invoke method ( of PARENT )
