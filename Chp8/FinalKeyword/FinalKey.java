@@ -1,5 +1,6 @@
 package Chp8.FinalKeyword;
 
+// 'final' keyword comes under non - access modifier
 // 'final' keyword has various uses
 // 1. Variable = Cannot change the value of variable ( it is constant now )
 // 2. Method = Cannot override the method
