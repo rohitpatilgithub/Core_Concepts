@@ -202,3 +202,12 @@ Q7. What are types or relationships between classes ? What is HAS-A (Association
 Q8. What is difference between super and super() ?
 --> // super() -> constructor ( invoke constructor of PARENT )
     // super -> keyword refer instance and invoke method ( of PARENT )
+
+Chp10
+---------------------------------------------------------------------------------------------
+
+Q1. How is String sequence of Characters ?
+--> String class implements CharSequence interface
+    char[] c = {'R','o','h','i','t'};
+    String name = new String(c);
+
