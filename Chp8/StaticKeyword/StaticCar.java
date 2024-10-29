@@ -4,7 +4,7 @@ package Chp8.StaticKeyword;
 // 1. Can be used for variable ( not with local )
 // 2. Can be used for methods
 // 3. Can be used on blocks
-// 4. inner class ( nested class ) not with outer class
+// 4. inner class ( nested class ) can access 'static' but outer class cannot access from inner class
 // 5. It gets memory while in class / class loading
 
 class Deer{
@@ -23,7 +23,6 @@ class Employee{
         empId++;
         System.out.println("Employee ID : "+empId+" "+name+" in company "+companyName);
     }
-
 }
 
 public class StaticCar {
