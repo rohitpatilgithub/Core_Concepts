@@ -21,8 +21,13 @@ public class StringConstantPool {
         String name = "Rohit";
         // Here we have declared only one object which has same value
         // as above thus it doesn't create any object
-        // Now JVM won't point the 'Rohit' internally
+
+        // Reasoning
+        // Now JVM checks in SCP whether there's literal 'Rohit'
+        // If it does find 'Rohit' literal then  JVM won't point the 'Rohit' internally
         // 'one' points 'Rohit' in SCP
+        // OR
+        // 'name' points 'Rohit' in SCP
         System.out.println(one.hashCode());
         System.out.println(name.hashCode());
         // If it is creating a object and deleting
