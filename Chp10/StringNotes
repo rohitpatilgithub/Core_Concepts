@@ -2,11 +2,10 @@ Strings
 1. Non - primitive data type
 
 2. String is sequence of characters / array of characters
--> Note : 'CharSequence' interface represents which repre/sent above thing
+-> Note : 'CharSequence' interface which is implemented by String class
 
 3. String is a class
--> Which is
-    public final class String extends Object implements CharSequence  , Serializable , Comparable {
+->  public final class String extends Object implements CharSequence  , Serializable , Comparable {
     ////////
     }
 
@@ -17,3 +16,19 @@ Strings
 ->  1.String
     2.StringBuffer
     3.StringBuilder
+
+6. String is immutable , why ?
+-> String holds the literal in SCP ( String Constant Pool ) which is in
+   Heap Area as String is non primitive data type
+   Hence we create an Object with same literal , SCP identifies it and
+   instead of creating new object and referring it just points the object towards literal
+
+   Reason , String objects are cached in String pool
+   Since cached Sting literals are shared between multiple objects
+   If we want a object to change the literal then it may happen all the other object
+   pointing / referring the literal may change
+   Thus due to some limitations it just don't let user change the literal instead
+   it creates new literal in SCP and points the new literal to that object
+
+   So conclusion is that Strings are immutable but
+   new String objects can be created to refer new literal
