@@ -5,7 +5,7 @@ package Chp10;
 //
 // 2. String is sequence of characters / array of characters
 //
-// Note : 'CharSequence' interface represents which repre/sent above thing
+// Note : 'CharSequence' interface represents String chars
 //
 // 3. String is a class
 // Which is
