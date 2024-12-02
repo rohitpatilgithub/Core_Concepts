@@ -25,9 +25,8 @@ public class StringConstantPool {
         // Reasoning
         // Now JVM checks in SCP whether there's literal 'Rohit'
         // If it does find 'Rohit' literal then  JVM won't point the 'Rohit' internally
-        // 'one' points 'Rohit' in SCP
-        // OR
-        // 'name' points 'Rohit' in SCP
+        // before 'one' was pointing 'Rohit' in Heap and SCP points 'Rohit' literal internally
+        // now 'name' points 'Rohit' in SCP
         System.out.println(one.hashCode());
         System.out.println(name.hashCode());
         // If it is creating a object and deleting
