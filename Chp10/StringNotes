@@ -32,3 +32,22 @@ Strings
 
    So conclusion is that Strings are immutable but
    new String objects can be created to refer new literal
+
+7. '==' and '.equals()' difference
+-> '==' and '.equals()' both are used to check whether both reference ( Objects ) are referring same memory location
+    From which '.equals()' is one of the methods from 'Object' class
+    it is override by String class where the definition of '.equals()' changes
+    and now '.equals()' checks the content / value of Object
+
+    class Object {
+        public boolean equals(Object obj){
+            return(this == obj);
+        }
+    }
+
+    class String extends Object{
+        @Override
+        public boolean equals(Object obj){
+            // statements which now checks the content / value of object
+        }
+    }
