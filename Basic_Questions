@@ -211,3 +211,12 @@ Q1. How is String sequence of Characters ?
     char[] c = {'R','o','h','i','t'};
     String name = new String(c);
 
+Q2. What is function of '.equals()' from Object class and String class ?
+--> In Object class , it checks whether two objects are referring same memory location
+    In String class after overriding '.equals()' it checks whether the content / value of Object is same
+
+Q3. Why it is better option to use char[] instead of String to store a password ?
+-->  1. String objects are immutable and it is stored in SCP
+        SCP doesn't hit garbage collection thus chances of getting hacked increases
+     2. Char arrays doesn't provide us value directly as it does in String
+        thus char is better option
