@@ -1,0 +1,23 @@
+String
+1. Storage : Heap , SCP
+2. Objects	: Immutable
+3. Memory : If we change values multiple times , it will consume more storage
+4. Thread-safe : Not thread safe
+5. Performance : Slow
+6. Use	: If there is less changes made to data
+
+StringBuffer
+1. Storage : Heap
+2. Objects : Mutable
+3. Memory : Less memory is consumed
+4. Thread-safe : The methods are synchronized thus it is thread safe
+5. Performance : Fast compared to String
+6. Use : If frequency of changing data is high
+
+StringBuilder
+1. Storage : Heap
+2. Objects : Mutable
+3. Memory : Less memory is consumed
+4. Thread-safe : Non synchronized methods so not thread safe
+5. Performance : Fast compared to StringBuffer
+6. Use : If frequency of changing data is high
