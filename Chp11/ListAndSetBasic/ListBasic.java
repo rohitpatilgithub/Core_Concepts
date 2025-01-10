@@ -1,4 +1,4 @@
-package Chp11.ListAndSet;
+package Chp11.ListAndSetBasic;
 
 import java.util.List;
 import java.util.ArrayList;
