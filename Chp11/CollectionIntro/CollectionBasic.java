@@ -1,4 +1,4 @@
-package Chp11;
+package Chp11.CollectionIntro;
 
 import java.util.ArrayList;
 import java.util.HashMap;

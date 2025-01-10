@@ -1,4 +1,4 @@
-package Chp11;
+package Chp11.CursorsIntro;
 
 import java.util.*;
 
